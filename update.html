@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>正在更新问题四</title>
+  <title>正在更新问题六</title>
   <style>
     :root{color-scheme:light;--paper:#F4F0E7;--card:#FFFDF8;--ink:#252B29;--muted:#5F6863;--accent:#28776B}
     *{box-sizing:border-box}
@@ -16,7 +16,7 @@
 </head>
 <body>
   <main>
-    <h1>正在更新问题四</h1>
+    <h1>正在更新问题六</h1>
     <p id="status">正在清除旧版缓存，请稍候……</p>
     <a id="fallback" href="./?v=8" hidden>打开最新版</a>
   </main>
@@ -39,7 +39,7 @@
         }
         status.textContent = '更新完成，正在打开最新版……';
         window.setTimeout(function () {
-          window.location.replace('./?v=8&updated=' + Date.now());
+          window.location.replace('./?v=9&updated=' + Date.now());
         }, 350);
       } catch (error) {
         status.textContent = '自动清理未完成，请点击下方按钮。';
